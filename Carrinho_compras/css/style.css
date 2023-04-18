@@ -1,12 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Hepta Slab", serif, Arial;
+  font-family: "Hepta Slab", "Lato" serif, Arial;
   font-family: "Lato", sans-serif, Arial;
   background-color: rgba(117, 21, 21, 0.733);
   font-size: 15px;
   display: flex;
   margin: 0;
   min-height: 100vh; /*responsividade*/
+}
 
-* {
-  box-sizing: border-box;
+header {
+  display: none;
+}
+
+.cart-area {
+  display: none;
+}
+
+.modeloWindowArea {
+  display: none;
+}
+
+.models {
+  display: none;
+}
+
+.modelo-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.modelo-item {
+  text-align: center;
+  max-width: 250px;
+  font-family: "Hepta Slab", Helvetica, Arial;
+  margin: 0 auto 50px auto;
 }
