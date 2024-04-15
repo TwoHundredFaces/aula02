@@ -1,3 +1,1 @@
-# Projetos_ISA
-
-Introdução ao JS
+Introduction for Embedded Systems and Automation's activity.
